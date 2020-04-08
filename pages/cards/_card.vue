@@ -189,7 +189,7 @@ export default {
         {
           hid: 'og:title',
           property: 'og:title',
-          content: this.title + ' | （非公式）広島県 新型コロナウイルス感染症対策サイト'
+          content: this.title + ' | （非公式）サンプル市 新型コロナウイルス感染症対策サイト'
         },
         {
           hid: 'description',

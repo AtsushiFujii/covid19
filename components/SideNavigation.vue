@@ -10,10 +10,10 @@
       </v-icon>
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          <img src="/ogp-Hiroshima.png" :alt="$t('広島県')" />
+          <img src="/ogp-Hiroshima.png" :alt="$t('サンプル市')" />
         </div>
         <h1 class="SideNavigation-Heading">
-          {{ $t('【非公式】広島県') }}<br />
+          {{ $t('【非公式】サンプル市') }}<br />
           {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('情報サイト') }}
         </h1>
       </nuxt-link>

@@ -11,7 +11,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s | 広島県 非公式　新型コロナウイルス感染症情報サイト',
+    titleTemplate: '%s | サンプル市 非公式　新型コロナウイルス感染症情報サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,12 +19,12 @@ const config: Configuration = {
         hid: 'description',
         name: 'description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、広島県の有志が開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、サンプル市の有志が開設したものです。'
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '広島県 非公式　新型コロナウイルス感染症情報サイト'
+        content: 'サンプル市 非公式　新型コロナウイルス感染症情報サイト'
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -35,13 +35,13 @@ const config: Configuration = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '広島県 非公式　新型コロナウイルス感染症情報サイト'
+        content: 'サンプル市 非公式　新型コロナウイルス感染症情報サイト'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、広島県の有志が開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、サンプル市の有志が開設したものです。'
       },
       {
         hid: 'og:image',
@@ -222,7 +222,7 @@ const config: Configuration = {
     hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '広島県 新型コロナウイルス感染症情報サイト',
+    name: 'サンプル市 新型コロナウイルス感染症情報サイト',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',

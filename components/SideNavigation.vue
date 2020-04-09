@@ -102,7 +102,7 @@ export default {
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('広島県内の感染動向'),
+          title: this.$t('サンプル市内の感染動向'),
           link: this.localePath('/')
         },
        
